@@ -1,0 +1,80 @@
+
+
+*{
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+body {
+  background:lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.App {
+  background: whitesmoke;
+  border-radius: 16px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-size: 16px;
+  
+}
+
+input:focus {
+  border-color: blue;
+}
+
+button {
+  background: grey;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: blue;
+}
+
+.data {
+  background: whitesmoke;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.data h2{
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.data p{
+  color:green;
+}
+
+
